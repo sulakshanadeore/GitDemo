@@ -1,0 +1,12 @@
+D:\AllDemos\HexaMarch\GitDemo\bin\Debug\net8.0\GitDemo.deps.json
+D:\AllDemos\HexaMarch\GitDemo\bin\Debug\net8.0\GitDemo.dll
+D:\AllDemos\HexaMarch\GitDemo\bin\Debug\net8.0\GitDemo.pdb
+D:\AllDemos\HexaMarch\GitDemo\obj\Debug\net8.0\GitDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\AllDemos\HexaMarch\GitDemo\obj\Debug\net8.0\GitDemo.AssemblyInfoInputs.cache
+D:\AllDemos\HexaMarch\GitDemo\obj\Debug\net8.0\GitDemo.AssemblyInfo.cs
+D:\AllDemos\HexaMarch\GitDemo\obj\Debug\net8.0\GitDemo.csproj.CoreCompileInputs.cache
+D:\AllDemos\HexaMarch\GitDemo\obj\Debug\net8.0\GitDemo.sourcelink.json
+D:\AllDemos\HexaMarch\GitDemo\obj\Debug\net8.0\GitDemo.dll
+D:\AllDemos\HexaMarch\GitDemo\obj\Debug\net8.0\refint\GitDemo.dll
+D:\AllDemos\HexaMarch\GitDemo\obj\Debug\net8.0\GitDemo.pdb
+D:\AllDemos\HexaMarch\GitDemo\obj\Debug\net8.0\ref\GitDemo.dll
