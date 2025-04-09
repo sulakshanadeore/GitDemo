@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\AllDemos\\HexaMarch\\GitDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF460CA5-FDD0-48AB-8F5E-228BC92A8A6F}|GitDemo.csproj|d:\\alldemos\\hexamarch\\gitdemo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF460CA5-FDD0-48AB-8F5E-228BC92A8A6F}|GitDemo.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF460CA5-FDD0-48AB-8F5E-228BC92A8A6F}|GitDemo.csproj|d:\\alldemos\\hexamarch\\gitdemo\\dept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF460CA5-FDD0-48AB-8F5E-228BC92A8A6F}|GitDemo.csproj|solutionrelative:dept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +27,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\AllDemos\\HexaMarch\\GitDemo\\Employee.cs",
-              "RelativeDocumentMoniker": "Employee.cs",
-              "ToolTip": "D:\\AllDemos\\HexaMarch\\GitDemo\\Employee.cs",
-              "RelativeToolTip": "Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Title": "Dept.cs",
+              "DocumentMoniker": "D:\\AllDemos\\HexaMarch\\GitDemo\\Dept.cs",
+              "RelativeDocumentMoniker": "Dept.cs",
+              "ToolTip": "D:\\AllDemos\\HexaMarch\\GitDemo\\Dept.cs",
+              "RelativeToolTip": "Dept.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T07:00:58.309Z",
+              "WhenOpened": "2025-04-09T09:26:55.856Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }
