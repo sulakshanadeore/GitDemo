@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog boxes</title>
+</head>
+<body  >
+<div style="color: blue; background-color: red; height: 100px; width: 600px; display: block;" onclick="showAlertBox()">
+<p>
+
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, enim veritatis? Nam facere, numquam voluptate est nisi,
+     ut exercitationem aliquam hic autem soluta repudiandae corporis explicabo sapiente? Omnis, atque eveniet.
+    </p>
+    </div>
+<hr/>
+    <div style="color: blue; background-color: green; height: 100px; width: 600px; display: block;" onclick="showconfirmBox()">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ut qui alias voluptate cumque vel necessitatibus debitis soluta, dolores eius? Nostrum officiis assumenda minima. Nam praesentium sequi dignissimos. Asperiores, sequi.</p>
+    </div>
+<hr/>
+
+<div style="color: blue; background-color: yellow; height: 100px; width: 600px; display: block;" onclick="showpromptbox()">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perferendis sit natus facilis ut cumque quam quaerat laborum! Facilis nihil ullam error expedita eligendi esse beatae ut aut. Adipisci, voluptates.</p>
+</div>
+
+<div>
+
+    <button onclick="openwin()">Open Window</button>
+    <button onclick="closewin()">Close window</button>
+</div>
+</body>
+<script>
+    let mywin;
+function openwin()
+{
+mywin=window.open("https://www.google.com","","width=800px,height=800px");
+
+}
+
+function closewin()
+{
+mywin.close();
+
+}
+
+
+    function showAlertBox()
+    {
+        alert("Hello... welcome");
+
+    }
+
+    function showconfirmBox()
+    {
+let userinput=confirm("Press a button? Ok or cancel");
+if(userinput==true)
+{
+    alert("You pressed OK");
+}
+else
+{
+
+    alert("You pressed cancel");
+
+}
+    }
+
+    function showpromptbox()
+    {
+
+let p=prompt("Enter a number","1");
+if(p==1)
+{
+alert("U entered 1");
+
+}
+else if(p<100)
+{
+alert("p is smaller than 100, its " + p);
+
+
+}
+else
+{
+    alert("Something else is entered... Its invalid");
+
+}
+
+    }
+</script>
+</html>

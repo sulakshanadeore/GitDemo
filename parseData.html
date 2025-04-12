@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Addtiion</legend>
+<label for="fno">Enter First No:</label>
+<input type="text" name="" id="fno" value="0"> 
+<br/>
+<label for="sno">Enter Second Number:</label>
+<input type="number" name="" id="sno" value="0">
+<br/>
+<label for="ans">Answer :</label>
+<input type="number" id="ans"/>
+<input type="button" onclick="Add()" value="Do Addition"/>
+</fieldset>
+    </form>
+    <script>    
+
+        function Add()
+        {
+let firstno=document.getElementById("fno").value;
+let secondno=document.getElementById("sno").value;
+let answer=parseInt(firstno)+parseInt(secondno);
+
+document.getElementById("ans").value=answer;
+
+        }
+    </script>
+    
+
+</body>
+</html>
