@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <script>    
+    var x=10;
+    var y="10";
+if(x==y)//type coercion
+if(x===y) //type checking (===) checks value and datatype whereas (==) checks only values
+{
+alert("Both are equal")
+
+}
+else
+{
+
+    alert("Not equal")
+}
+
+
+    </script>
 </head>
 <body>
     <form>
@@ -27,11 +43,14 @@
         {
 let firstno=document.getElementById("fno").value;
 let secondno=document.getElementById("sno").value;
-let answer=parseInt(firstno)+parseInt(secondno);
+let answer=parseInt(firstno) *parseInt(secondno);
 
 document.getElementById("ans").value=answer;
 
         }
+
+
+
     </script>
     
 
