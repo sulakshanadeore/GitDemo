@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+     <!-- <script> 
+        var currentdate=new Date();
+        console.log(currentdate);
+
+    var todaydate=new Date('2025-04-12');
+    console.log(todaydate);
+    
+    
+    const p=new Date(2025,1,13,11,7,10);
+    console.log(p);
+        x=9;
+        y=10;
+        z=x+y;
+        console.log(z);
+         //alert("Hello");
+         var i=10;
+         let j=3.14;
+         let addition=i+j;
+         console.log(addition);
+         var k='p';
+         var g='Tina';
+         console.log(i);
+         console.log(j);
+         console.log(k);
+         console.log(g);
+         const price=10;
+         const qty=100;
+         let total=qty*price;
+         console.log(total);
+    </script> -->
+</head>
+<body>
+
+    <form action="" method="get">
+        
+        <fieldset>
+            <legend>SignUp for New Account</legend>
+            <p id="displaydate"></p>
+            <!-- <label id="dispDate"></label> -->
+            <!-- <input type="text" name="" id="txtdate"> <br/> -->
+            <label for="firstname">Enter FirstName:</label>
+            <input type="text" name="firstname" id="firstname" value="Paresh">
+            <br/>
+            <label for="lastname">Enter LastName:</label>
+            <input type="text" name="lastname" id="lastname" value="Jim"><br/>
+            <label for="emailid">Enter Emailid:</label>
+            <input type="email" name="emailid" id="emailid" value="paresh@gmail.com"><br/>
+            <input type="submit" value="Submit button" onclick="DisplayData()">
+            <input type="button" ondblclick="DisplayData()" value="Show button"/>
+            <!-- <button type="button" onclick="DisplayData()">Show</button> -->
+        </fieldset>
+  
+
+    </form>
+    <script>
+var todaydate=new Date();
+ document.getElementById("displaydate").innerHTML=todaydate;
+
+ function DisplayData()
+ {
+let fname=document.getElementById("firstname").value;
+let lname=document.getElementById("lastname").value;
+let email=document.getElementById("emailid").value;
+
+console.log(fname);
+console.log(lname);
+console.log(email);
+ }
+
+
+
+// document.getElementById("dispDate").innerHTML=todaydate;
+// document.getElementById("txtdate").value=todaydate;
+// document.write("HEllo from document.write");
+//         a=10
+//         b=10;
+//         c=a+b;
+//         console.log(c);
+//         myname='Arundhati';
+//         console.log(myname);
+
+
+//         let v1=123;
+//         console.log(v1);
+//         v1='Paresh';
+//         console.log(v1);
+
+
+//         const v2=1234;
+//         console.log(v2);
+//        // v2='Suresh';
+//         //console.log(v2);
+
+//         var v3=777;
+//         console.log(v3);
+//         v3='Girish';
+//         console.log(v3);
+
+
+//         v4=9999;
+//         console.log(v4);
+//         v4='kanchan';
+//         console.log(v4);
+         
+    </script>
+
+</body>
+</html>
