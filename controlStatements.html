@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="display"></p>
+<br/>
+    <p id="forExample"></p>
+<br/>
+    <p id="forin"></p>
+<br/>
+
+<p id="forof"></p>
+<script>
+
+const product={};
+//for in loop is used for iterating the object properties
+product.prodid=11;
+product.pname="Tea";
+product.price=10;
+
+let pdata="";
+for (const key in product) {
+            pdata+= product[key];
+}
+
+
+document.getElementById("forin").innerHTML=pdata;
+
+
+
+
+const names=[];
+names[0]="Anvita";
+names[1]="Sunita";
+names[2]="Sita";
+names[3]="Gita";
+names[4]="Smita";
+names[5]="Arpita";
+names[6]="Sukirta";
+//for loop and for of is used to iterate thro the array
+let namesData="";
+
+for (const element of names) {
+    namesData+=element + ", ";
+}
+
+document.getElementById("forof").innerHTML=namesData;
+
+for (let index = 0; index < names.length; index++) {
+    namesData+=names[index] + "<br>";
+
+}
+document.getElementById("forExample").innerHTML=namesData;
+document.write("<hr/>")
+
+
+
+
+        var d=new Date().getHours();
+        if(d<18)
+document.getElementById("display").innerHTML="Good Day!!!";
+else if(d<20)
+document.getElementById("display").innerHTML="Good Evening!!!";
+else
+document.getElementById("display").innerHTML="Good Night!!!";
+
+var d1=new Date().getDay();
+var day;
+switch(d1)
+{
+case 0:
+day="Sunday";
+break;
+
+case 1:
+day="Monday";
+break;
+
+// case 2:
+// day="Tuesday";
+// break;
+
+case 3:
+day="Wednesday";
+break;
+
+case 4:
+day="Thursday";
+break;
+
+case 5:
+day="Friday";
+break;
+
+case 6:
+day="Saturday";
+break;
+
+default:
+    day="Tuesday";
+
+}
+document.getElementById("display").innerHTML+= day;
+
+
+
+    </script>
+</body>
+</html>

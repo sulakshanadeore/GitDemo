@@ -29,6 +29,21 @@ let n1=numbers[0];
 console.log("First number in the array=" + n1)
 console.log("All elements in the array=" + numbers);
 console.log("Total number of elements in the array= "  +numbers.length);
+
+
+
+// Iterate array
+
+let txt="";
+function f1(value,index,array)
+{
+txt+=value + "<br>";
+}
+
+
+numbers.forEach(f1);
+console.log(txt);
+
     </script>
 </body>
 </html>
