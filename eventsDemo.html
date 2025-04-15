@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <form>
+        <!-- <input type="text" name="" id="fname" oninput="ConvertToUpper()"> -->
+        <input type="text" name="" id="fname" onchange="ConvertToUpper()" onfocus="changeBackgroundColorOfTextBox(this)"
+         onmouseout="changecolor(this)">
+    </form>
+    <button onclick="document.getElementById('show').innerHTML=new Date()">Show Time</button>
+    <p id="show" onmouseover="mouseOverTheText(this)" style="height:20px;width:140px;background-color: red;">This is  a demo</p>
+
+    <p id="show1" onmouseout="mouseOutOfTheText(this)" style="height:20px;width:200px;background-color: green;">This is  a demo</p>
+
+    <script>
+
+function changecolor(obj)
+{
+    obj.style.background="yellow";
+
+}
+
+function changeBackgroundColorOfTextBox(obj)
+{
+obj.style.background="blue";
+
+}
+
+        function mouseOutOfTheText(obj)
+        {
+
+            obj.innerHTML="Moving the mouse out";
+        }
+function mouseOverTheText(obj)
+{
+obj.innerHTML="Thank you";
+
+}
+
+        function ConvertToUpper()
+        {
+            
+            const a=document.getElementById("fname");
+            a.value=a.value.toUpperCase();
+           
+        }
+    </script>
+</body>
+</html>
