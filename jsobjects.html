@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <form action="">
+<fieldset>
+    <legend>ProductData</legend>
+    <label for="productid">Product ID:</label>
+    <input type="text" name="productid" id="productid">
+    <br/>
+
+    <label for="productname">Product Name:</label>
+    <input type="text" name="productname" id="productname">
+    <br/>
+    
+    <label for="productprice">Product Price:</label>
+    <input type="text" name="productprice" id="productprice">
+    <br/>
+    <hr/>
+    <input type="text" name="fullData" id="fullData" size="35">
+    <input type="button" onclick="putData()" value="Click Here"/>
+
+    <select name="countrynames" id="countrynames">
+        <option value="US">United States of America</option>
+        <option value="UK">United Kingdom</option>
+        <option value="Japan">Japan</option>
+   </select>
+</fieldset>
+
+    </form>
+    
+    <script>
+const emp={empid:1,ename:'Raj',sal:20000};
+console.log(emp.empid);
+console.log(emp.ename);
+console.log(emp.sal);
+
+const product={};
+
+product.prodid=11;
+product.pname="Tea";
+product.price=10;
+
+document.getElementById("productid").value=product.prodid
+document.getElementById("productname").value=product.pname;
+document.getElementById("productprice").value=product.price;
+
+let cust=new Object();
+cust.custid=101;
+cust.custname="Kamlesh";
+
+console.log(cust.custid);
+console.log(cust.custname);
+console.log("-=============");
+
+console.log(cust["custid"]);
+console.log(cust["custname"]);
+
+const person={
+    fname:"Narendra",
+lname:"Modi",
+country:"India",
+
+fullDetails:function(){
+return this.fname + "  " + this.lname +" is the Prime Minister of " + this.country;
+    
+},
+countryName:function()
+{
+return this.country;
+
+}
+
+};
+
+document.getElementById("fullData").value=person.fullDetails();
+
+function putData()
+{
+var x=document.getElementById("countrynames");
+var option=document.createElement("option");
+option.text=person.countryName();
+x.add(option,x[0]);
+}
+
+
+
+const supplier={suppid:1,suppname:"JK InfoSoft",address:"Pune"};
+
+// delete supplier.address;
+delete supplier["address"];
+
+console.log("Supplier ID= " + supplier.suppid + " and the name of the Supplier " + supplier.suppname + " who is located in " + supplier.address);
+
+    </script>
+</body>
+</html>
